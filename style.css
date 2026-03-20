@@ -62,7 +62,7 @@ body{
 .answers-container{
     display: flex;
     flex-direction: column;
-    gap: 1opx;
+    gap: 10px;
     margin-bottom: 25px;
 }
 
@@ -79,4 +79,21 @@ body{
 .answer-btn:hover{
     background-color: #eadbc8;
     border-color: #dac0ae;
+}
+.answer-btn.correct{
+    background-color: #e6fff0;
+    border-color: #a3f0c4;
+    color: #28a745;
+}
+.answer-btn.incorrect{
+    background-color: #fff0f0;
+    border-color: #ffbdbd;
+    color: #dc3545;
+}
+.progress-bar{
+    height: 10px;
+    background-color: #f8f0e5;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
 }
